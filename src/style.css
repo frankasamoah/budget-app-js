@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+/**
+* ! style rules app 
+**/
+
+.app {
+  padding: 20px;
+  width: 350px;
+  height: 600px;
+  border: 2px solid #212529;
+  border-radius: 8px;
+  position: relative;
+}
+
+/**
+* ! style rules topbar component 
+**/
+
+#topBar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.topBar__image {
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+}
+
+/**
+* ! style rules balance component 
+**/
+
+#balance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.balance__current {
+  font-size: 15px;
+}
+
+.balance__total {
+  font-size: 25px;
+}
+
+/**
+* ! style rules bottom nav component 
+**/
+
+.bottomNavigation {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* border: 2px solid red; */
+  width: 100%;
+  padding: 20px;
+  background-color: #d2f8ee;
+}
+
+/**
+* ! style rules transaction component 
+**/
+
+.transaction__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row__1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row__2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
